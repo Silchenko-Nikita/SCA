@@ -3,9 +3,7 @@ To work with the app:
 1. git clone https://github.com/Silchenko-Nikita/SCA.git
 2. cd SCA
 3. python -m venv venv
-4.  
-venv\Scripts\activate On Windows or
-source venv/bin/activate On macOS/Linux  
+4. "venv\Scripts\activate" On Windows or "source venv/bin/activate" On macOS/Linux  
 5. pip install -r requirements.txt
 6. python manage.py migrate
 7. python manage.py runserver
